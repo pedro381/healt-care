@@ -1,0 +1,12 @@
+{
+  "name": "healt-care",
+  "version": "1.0.0",
+  "description": "Descrição do seu projeto",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Jonatas",
+  "license": "MIT"
+}
