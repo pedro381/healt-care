@@ -4,9 +4,6 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const publicPath = path.join(__dirname, 'public');
 
-const open = require('open');
-open('http://localhost:3000/doc');
-
 const { specs, swaggerUi } = require('./swagger.js');
 
 app.use(express.static(publicPath));
